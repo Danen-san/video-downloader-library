@@ -2,12 +2,21 @@
 
 import sys
 import os
+<<<<<<< HEAD
+=======
+import time
+>>>>>>> ec6d7aa (Ejemplos arreglados y funcionando)
 from pathlib import Path
 
 # Agregar la ruta del módulo actual al path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+<<<<<<< HEAD
 from video_downloader_library import VideoDownloader, fetch_video_info
+=======
+from video_downloader_library.video_dowloader import VideoDownloader
+from video_downloader_library.video_info import fetch_video_info
+>>>>>>> ec6d7aa (Ejemplos arreglados y funcionando)
 
 
 def example_1_basic_download():
@@ -153,7 +162,12 @@ def example_5_with_subtitles():
     
     print(f"Descargando: {url}")
     print("Calidad: 720p, Subtítulos: Español + Inglés")
+<<<<<<< HEAD
     # downloader.download(url, "720p", True)  # Descomentar para ejecutar
+=======
+    
+    downloader.download(url, "720p", True)  # Descomentar para ejecutar
+>>>>>>> ec6d7aa (Ejemplos arreglados y funcionando)
     
     print("\nNota: Los subtítulos se descargaran en archivos .vtt")
     print("Idiomas soportados: es, en (configurable)")
@@ -172,7 +186,11 @@ def main():
     print("\nEjecutando ejemplo 2 (información del video)...")
     
     # Ejecutar ejemplo de información (no requiere descarga)
+<<<<<<< HEAD
     example_2_get_video_info()
+=======
+    example_5_with_subtitles()
+>>>>>>> ec6d7aa (Ejemplos arreglados y funcionando)
     
     print("\n" + "=" * 60)
     print("✅ Ejemplos completados")

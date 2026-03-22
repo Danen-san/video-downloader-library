@@ -14,7 +14,11 @@ from typing import Dict, Any
 
 import yt_dlp
 
+<<<<<<< HEAD
 from quality_mapper import get_format_selector
+=======
+from .quality_mapper import get_format_selector
+>>>>>>> ec6d7aa (Ejemplos arreglados y funcionando)
 
 
 def fetch_video_info(url: str) -> Dict[str, Any]:

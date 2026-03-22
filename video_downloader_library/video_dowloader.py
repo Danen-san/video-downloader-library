@@ -23,7 +23,11 @@ from typing import Callable, Optional
 
 import yt_dlp
 
+<<<<<<< HEAD
 from quality_mapper import get_format_selector
+=======
+from .quality_mapper import get_format_selector
+>>>>>>> ec6d7aa (Ejemplos arreglados y funcionando)
 
 DOWNLOAD_PATH = os.getcwd()
 
@@ -102,7 +106,10 @@ class VideoDownloader:
             
         if self._paused:
             while self._paused and not self._cancelled:
+<<<<<<< HEAD
                 import time
+=======
+>>>>>>> ec6d7aa (Ejemplos arreglados y funcionando)
                 time.sleep(0.1)
         
         if d["status"] == "downloading":

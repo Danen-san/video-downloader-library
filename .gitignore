@@ -77,3 +77,10 @@ develop-eggs/
 # OS specific
 Thumbs.db
 .DS_Store
+<<<<<<< HEAD
+=======
+
+
+#others
+docs/GITHUB_SETUP.md
+>>>>>>> ec6d7aa (Ejemplos arreglados y funcionando)
